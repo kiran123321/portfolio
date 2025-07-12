@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>kiran Portfolio</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background: #f7f7f7;
+  color: #333;
+}
+
+header {
+  background: #fff;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header h1 span {
+  color: #6c63ff;
+}
+
+nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.hero {
+  padding: 2em;
+  text-align: center;
+  background: #6c63ff;
+  color: white;
+}
+
+.hero .btn {
+  background: #fff;
+  color: #6c63ff;
+  padding: 0.5em 1em;
+  margin: 1em;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+section {
+  padding: 2em;
+  text-align: center;
+}
+
+#about img {
+  width: 150px;
+  border-radius: 50%;
+  margin: 1em 0;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+ul li {
+  background: #6c63ff;
+  color: white;
+  padding: 0.5em 1em;
+  margin: 0.5em;
+  border-radius: 5px;
+}
+
+.project {
+  background: white;
+  padding: 1em;
+  margin: 1em auto;
+  border-radius: 10px;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+footer {
+  background: #333;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: white;
+  min-width: 160px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+</style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1><span>SANGEETHAM KIRAN</span></h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
+      <div class="dropdown">
+  <a>Certificates ▼</a>
+  <div class="dropdown-content">
+    <a href="C:\Users\KIRAN\Downloads\IBM PY0101EN Certificate _ Cognitive Class.pdf" target="_blank" style="color:red">python for data science</a><br>
+    <a href="C:\Users\KIRAN\Downloads\cloud tyechnologies.pdf" target="_blank" style="color:red">cloud technologies</a>
+  </div>
+</div>
+
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Hi I'm SANGEETHAM KIRAN 👋</h2>
+    <p>A enthusiastic data science student 🚀 with good practice knowledge.</p>
+    <div class="buttons">
+      
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="C:\Users\KIRAN\OneDrive\Pictures\kiran img.jpg" alt="Profile Photo">
+    <p>i am data science student with good knowledge on data analysis and web development technologies!</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>python(pandas,matplotlib,scipy,numpy,tensorflow)</li>
+      <li>java</li>
+      <li>c</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>hospital management system </h3>
+      <p>The Multi-Specialty Hospital Management System is a comprehensive, digital platform designed to streamline and automate the day-to-day operations of a hospital or medical center. It provides an integrated solution for managing multiple departments, patient care, staff coordination, administrative workflows, and medical records in a centralized and efficient manner. and department wise specialist doctors are there </p>
+    </div>
+<a href="https://github.com/kiran123321?tab=overview&from=2023-12-01&to=2023-12-31">click here to visit my projects</a>
+    <!-- Add more projects as needed -->
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume">
+    <h2>Resume</h2>
+    <a href="resume.pdf" download class="btn">Download Resume (PDF)</a>
+  </section>
+
+
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: sangeethamkiransangeethamkiran@gmail.com</p>
+    <p>Phone: +91 8019792499</p>
+<p>linkdin profile link<a href="https://www.linkedin.com/in/sangeetham-kiran-7ab2a7248/"> visit my linkdin</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 kiran Portfolio. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
